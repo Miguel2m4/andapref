@@ -59,21 +59,40 @@
 </nav>
 <section id="crearpref">
 <div id="crear1">
-	<h2>Crear Proveedor</h2>
+	<h2>Editar Inmueble</h2>
 	<form>
+		<input type="number" placeholder="Codigo" required>
 		<input type="number" placeholder="Id Propietario" required>
-		<input type="text" placeholder="Nombre" required>
-		<input type="text" placeholder="Apellido" required>
-		<input type="text" placeholder="Telefono fijo" required>
-		<input type="text" placeholder="Movil" required>
-		<input type="text" placeholder="Email">
-		<input type="text" placeholder="Direccion" required>
-
-		
+		<select>
+			<option value="">Tipo de Inmubele</option>
+		</select>
+		<input type="number" placeholder="Mt2" required>
+		<input type="number" placeholder="Habitaciones" required>
+		<input type="number" placeholder="Baños" required>
+		<select>
+			<option value="">Parqueadero</option>
+			<option value="">SI</option>
+			<option value="">NO</option>
+		</select>
+		<select>
+			<option value="">Servicio</option>
+			<option value="">Arriendo</option>
+			<option value="">Venta</option>
+		</select>
+		<input type="number" placeholder="Valor" required>
+		<input type="text" placeholder="Barrio" required>
+		<p>Ubicación de Google Maps</p>
+		<input type="number" placeholder="Ubicacionen X" required>
+		<input type="number" placeholder="Ubicacionen Y" required>
 	
 </div>
 <div id="crear2">
-	<h2>Contrato</h2>		
+	<h2>Descrpciones</h2>
+		<textarea placeholder="Descripción 1" required></textarea>
+		<textarea placeholder="Descripción 2" required></textarea>
+		<h2>Fotografia destacada</h2>
+		<div class="subir"><input type="file"></div>		
+		<p>Fotografias maximo 10</p>
 		<div class="subir"><input type="file"> <a href="">Mas</a></div>
 		<div class="subir"><input type="file"> <a href="">Mas</a></div>
 	<input type="submit" value="Guardar">
@@ -82,40 +101,6 @@
 
 	
 </section>
-<!-- <footer>
-<div id="foot">
-<div class="footersec">
-	<h2>Información de contacto</h2>
-	<p><strong>Email:</strong> correo@inmobiliariaandapref.com</p>
-	<p><strong>Telefono:</strong> (8) 671 60 46 - 668 44 11</p>
-	<p><strong>Celular:</strong> +57 311 232 7508 - 311 207 20 22</p>
-	<p><strong>Dirección:</strong> Calle 15 No 371-53 Ofc 102 Bloque 7 Esperanza 8va. Etapa</p>
-</div>
-
-<div class="footersec">
-	<h2>Deseas recibir mas Información</h2>
-	<p>Ingresa tu correo para recibir mas informacion</p><p>acerca de novedades en nuestros productos.</p>
-	<form>
-		<input type="email" placeholder="Email" required>
-		<input type="submit" value="Enviar">
-	</form>
-</div>
-
-<div class="footersec">
-	<h2>Con el respaldo de:</h2>
-	<img src="images/seguros_bolivar.png">
-	<img src="images/libertador.png">
-	
-</div>
-	<hr class="divi1">
-	<div id="copyright">
-            <p>Copyright © Inmobiliaria Andapref SAS, 2015.Todos los derechos reservados diseñado por <a href="http://inngeniate.com/"> Inngeniate.com</a></p>
-            <div id="logo">
-                <img src="images/logoinn.png">
-            </div>
-        </div>
-        </div>
-</footer> -->
 </body>
 <script type="text/javascript" src="http://code.jquery.com/jquery-1.7.2.min.js"></script>
 <script type="text/javascript" src="js/script-menu.js"></script>
